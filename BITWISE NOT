@@ -1,0 +1,27 @@
+Bitwise NOT reverses the original bit...
+1----0
+0----1
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=false;
+    cout<<~a;
+}
+
+OUTPUT
+-1
+
+REASON
+0 0 0 0 0 0 0 0
+on the negation of each bit
+1 1 1 1 1 1 1 1
+WE GOT THE NUMBER IS NEGATIVE...
+on taking 1's complement
+0 0 0 0 0 0 0 0 
+And 2's complement
+0 0 0 0 0 0 0 1
+SO FINALLY
+NUMBER IS -1...
+
