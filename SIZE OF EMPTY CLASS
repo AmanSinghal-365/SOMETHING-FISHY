@@ -1,0 +1,19 @@
+The size of the empty class is 1, not zero
+It is because we have to provide class an existence...
+if it has zero memory then it is not present...
+we can't identify it
+
+PROGRAM::
+#include<iostream>
+using namespace std;
+
+class animal{
+
+};
+int main()
+{
+    cout<<"SIZE OF EMPTY CLASS IS "<<sizeof(animal);
+}
+
+OUTPUT::
+SIZE OF EMPTY CLASS IS 1
