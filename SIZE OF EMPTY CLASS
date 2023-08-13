@@ -2,6 +2,7 @@ The size of the empty class is 1, not zero
 It is because we have to provide class an existence...
 if it has zero memory then it is not present...
 we can't identify it
+And minimum possible allocatable memory is 1 byte
 
 PROGRAM::
 #include<iostream>
@@ -16,4 +17,4 @@ int main()
 }
 
 OUTPUT::
-SIZE OF EMPTY CLASS IS 1
+THE SIZE OF THE EMPTY CLASS IS 1
