@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int a=0647;
+cout<<a;
+}
+
+OUTPUT::
+423
+
+REASON::
+IF WE START WITH ZERO COMPILER ASSUMED IT TO BE AN OCTAL NUMBER 
+AND PRINTED ACCORDINGLY...
+
+6*64 + 4*8 + 7*1 = 423
